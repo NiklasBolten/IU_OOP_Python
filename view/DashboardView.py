@@ -14,8 +14,6 @@ class DashboardView:
 
     #TODO Versionierung von Modulen: Version mit in der Tabelle für aktive_module_prüfungen ausgeben
 
-        # SYNTEA HAT DAS GECODET
-
             rows = []
             for modul_name, prüfungen in daten.aktive_module_prüfungen.items():
                 for i, prüfung in enumerate(prüfungen):
@@ -43,20 +41,23 @@ class DashboardView:
             aktive_module_name_liste = "\n".join(rows)
             output = output.replace("${aktive_module_name}", aktive_module_name_liste)
 
-        # SYNTEA HAT BIS HIER HIN GECODET
-
             output = output.replace("${gewünschter_notendurchschnitt}", str(daten.gewünschter_notendurchschnitt))
 
             output = output.replace("${aktueller_notendurchschnitt}", str(daten.aktueller_notendurchschnitt))
 
             if daten.benötigter_notendurchschnitt is None:
-                output = output.replace("${benötigter_notendurchschnitt}", "Kein Modul übrig")
+                output = output.replace("${benötigter_notendurchschnitt}", "Kein Modul übrig; Alle ECTS vergeben")
             elif daten.benötigter_notendurchschnitt < 1:
                 output = output.replace("${benötigter_notendurchschnitt}", "Notendurchschnitt kann nicht mehr erreicht werden")
             elif daten.benötigter_notendurchschnitt > 6:
                 output = output.replace("${benötigter_notendurchschnitt}", "Notendurchschnitt wird definitiv erreicht werden")
             else:
                 output = output.replace("${benötigter_notendurchschnitt}", str(daten.benötigter_notendurchschnitt))
+            
+            # Anmerkung: Wenn in einem Studiengang noch nicht alle ECTS vergeben wurden, also Studiengang.ects_gesamt kleiner
+            # als die Summe der ECTS der Module in Studiengang.module ist, wird in ${benötigter_notendurchschnitt} ein Wert
+            # ausgegeben, obwohl ${anzahl_übrige_prüfungsleistungen} = 0 ist. Da dem Studiengang zu dem Zeitpunkt noch
+            # Module hinzugefügt werden können (wodurch ${anzahl_übrige_prüfungsleistungen} ggf. steigen würde), ist das OK.
 
             output = output.replace("${anzahl_übrige_prüfungsleistungen}", str(daten.anzahl_übrige_prüfungsleistungen))
 
