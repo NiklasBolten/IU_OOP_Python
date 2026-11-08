@@ -51,6 +51,10 @@ class DashboardView:
 
             if daten.benötigter_notendurchschnitt is None:
                 output = output.replace("${benötigter_notendurchschnitt}", "Kein Modul übrig")
+            elif daten.benötigter_notendurchschnitt < 1:
+                output = output.replace("${benötigter_notendurchschnitt}", "Notendurchschnitt kann nicht mehr erreicht werden")
+            elif daten.benötigter_notendurchschnitt > 6:
+                output = output.replace("${benötigter_notendurchschnitt}", "Notendurchschnitt wird definitiv erreicht werden")
             else:
                 output = output.replace("${benötigter_notendurchschnitt}", str(daten.benötigter_notendurchschnitt))
 
@@ -58,7 +62,12 @@ class DashboardView:
 
             output = output.replace("${studiengang_ende}", daten.studiengang_ende.strftime("%d.%m.%Y"))
 
-            output = output.replace("${verstrichene_tage_anteil}", str(daten.verstrichene_tage_anteil))
+            if daten.verstrichene_tage_anteil > 100:
+                output = output.replace("${verstrichene_tage_anteil}", "100")
+            elif daten.verstrichene_tage_anteil < 0:
+                output = output.replace("${verstrichene_tage_anteil}", "0")
+            else:
+                output = output.replace("${verstrichene_tage_anteil}", str(daten.verstrichene_tage_anteil))
 
             output = output.replace("${ects_erreicht_anteil}", str(daten.ects_erreicht_anteil))
 

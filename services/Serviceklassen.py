@@ -113,7 +113,10 @@ class ZeitService:
     
     @staticmethod
     def berechne_gesamtlänge_studium_tage(studiengang):
-        return (ZeitService.berechne_geplantes_studienende(studiengang) - studiengang.beginn).days
+        if not studiengang.ende:
+            return (ZeitService.berechne_geplantes_studienende(studiengang) - studiengang.beginn).days
+        else:
+            return (studiengang.ende - studiengang.beginn).days
     
     @staticmethod
     def berechne_verstrichene_tage(studiengang):
