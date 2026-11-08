@@ -7,7 +7,7 @@ from repositories.json.JSONStudiengangRepository import JSONStudiengangRepositor
 from repositories.json.JSONModulRepository import JSONModulRepository
 
 daten_dateipfad = "daten/db.json"
-view_dateipfad = "view/template.html"
+view_dateipfad = "view/templates/template.html"
 
 class JSONDashboardApp:
     """Application Klasse mit JSON Repository."""
