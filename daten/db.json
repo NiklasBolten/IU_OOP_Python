@@ -1,0 +1,1173 @@
+{
+    "Module": [
+        {
+            "typ": "modul",
+            "kurscode": "DLBDSIPWP01_D",
+            "name": "Einführung in die Programmierung mit Python",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLGMOE01-01",
+            "name": "Medizin für Nichtmediziner:innen I",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBWIRITT01",
+            "name": "Einführung in das wissenschaftliche Arbeiten für IT und Technik",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Advanced Workbook",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBDSOOFPP01_D",
+            "name": "Objektorientierte und funktionale Programmierung mit Python",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Portfolio",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLGEHT01-01",
+            "name": "E-Health",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBCSICS01_D",
+            "name": "Einführung in die Informatik",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBMINMDMD01",
+            "name": "Medizinisches Datenmanagement und Dokumentation",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBIBRVS01",
+            "name": "Betriebssysteme, Rechnernetze und verteilte Systeme",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBISIC01",
+            "name": "Einführung in Datenschutz und IT-Sicherheit",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBMINPMDMD01",
+            "name": "Projekt: Medizinisches Datenmanagement und Dokumentation",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Portfolio",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBMINOOPC01",
+            "name": "Objektorientierte Programmierung mit C++",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Advanced Workbook",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBMINGSE01",
+            "name": "Grundlagen des Softwareengineering",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Advanced Workbook",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBWINGM01",
+            "name": "Grundlagen der Mathematik",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBMINKIMW01",
+            "name": "Künstliche Intelligenz im Medizinwesen",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "BSTA01-02",
+            "name": "Statistik",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBIPAPCC01",
+            "name": "Projekt: Allgemeine Programmierung mit C/C++",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Portfolio",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBMINAMI01",
+            "name": "Grundlagen der Angewandten Medizininformatik",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Fallstudie",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBMETWNQM01",
+            "name": "Medizintechnische Normen: Bedeutung und Anwendung",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Fallstudie",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "IDBS01",
+            "name": "Datenmodellierung und Datenbanksysteme",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBDHDTE01",
+            "name": "Digitale Transformation und Ethik im Gesundheitswesen",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Hausarbeit",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBMINSDTEGW",
+            "name": "Seminar: Digitale Transformation und Ethik im Gesundheitswesen",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Seminararbeit",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBMINPGPQT01",
+            "name": "Projekt: GUI-Programmierung mit QT",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Portfolio",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBMINBVM01",
+            "name": "Bildverarbeitung in der Medizin",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBMINPBVM01",
+            "name": "Projekt: Bildverarbeitung in der Medizin",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Projektpräsentation",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "DLBDSPBDM01_D",
+            "name": "Projekt: Data-Mart-Erstellung in SQL",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Portfolio",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "BBAK01",
+            "name": "Bachelorarbeit",
+            "ects": 9,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Bachelorarbeit",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "BBAK02",
+            "name": "Kolloquium",
+            "ects": 1,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Prüfung mündlich",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "pflichtwahlmodul",
+            "kurscode": "DLBMINPMI01",
+            "name": "Praxisprojekt: Medizinische Informatik 1",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Praxisreflexion",
+                    "wird_benotet": false,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "pflichtwahlmodul",
+            "kurscode": "DLBMINPMI02",
+            "name": "Praxisprojekt: Medizinische Informatik 2",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Praxisreflexion",
+                    "wird_benotet": false,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "pflichtwahlmodul",
+            "kurscode": "DLBMINPMI03",
+            "name": "Praxisprojekt: Medizinische Informatik 3",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Praxisreflexion",
+                    "wird_benotet": false,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "pflichtwahlmodul",
+            "kurscode": "LBEWAUP-01",
+            "name": "Anatomie und Physiologie",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "pflichtwahlmodul",
+            "kurscode": "DLBSEPITI-01_D",
+            "name": "IT-Infrastruktur",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "pflichtwahlmodul",
+            "kurscode": "LBKPSGUV",
+            "name": "Gesprächsführung und Verhandlungstechniken",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "wahlpflichtmodul",
+            "kurscode": "DLBIKI01",
+            "name": "Künstliche Intelligenz",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Hausarbeit",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "wahlpflichtmodul",
+            "kurscode": "DLBINGDABD01",
+            "name": "Data Analytics und Big Data",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Fallstudie",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "wahlpflichtmodul",
+            "kurscode": "DLBMIAMVR01",
+            "name": "Augmented, Mixed und Virtual Reality",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Advanced Workbook",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "wahlpflichtmodul",
+            "kurscode": "DLBMIAMVR02",
+            "name": "X-Reality Projekt",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Projektbericht",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "wahlpflichtmodul",
+            "kurscode": "DLBMIUID01-01",
+            "name": "Gestaltung und Ergonomie von User Interfaces",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        },
+        {
+            "typ": "wahlpflichtmodul",
+            "kurscode": "DLBMIUID02",
+            "name": "Projekt: User Interface Design",
+            "ects": 5,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Projektbericht",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        }
+    ],
+    "Studiengänge": [
+        {
+            "name": "Medizinische Informatik",
+            "beginn": "2026-04-01",
+            "ende": "2029-03-31",
+            "ects_gesamt": 180,
+            "gewünschter_notendurchschnitt": 2.0,
+            "module": [
+                {
+                    "kurscode": "DLBDSIPWP01_D",
+                    "semester": 1,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLGMOE01-01",
+                    "semester": 1,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBWIRITT01",
+                    "semester": 1,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Advanced Workbook",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBDSOOFPP01_D",
+                    "semester": 1,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Portfolio",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLGEHT01-01",
+                    "semester": 1,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMINPMI01",
+                    "semester": 1,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Praxisreflexion",
+                            "prüfungsdatum": null,
+                            "wird_benotet": false,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBCSICS01_D",
+                    "semester": 2,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMINMDMD01",
+                    "semester": 2,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMINPMI02",
+                    "semester": 2,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Praxisreflexion",
+                            "prüfungsdatum": null,
+                            "wird_benotet": false,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBIBRVS01",
+                    "semester": 2,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBISIC01",
+                    "semester": 2,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMINPMDMD01",
+                    "semester": 2,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Portfolio",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMINOOPC01",
+                    "semester": 3,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Advanced Workbook",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMINGSE01",
+                    "semester": 3,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Advanced Workbook",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBWINGM01",
+                    "semester": 3,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMINKIMW01",
+                    "semester": 3,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "BSTA01-02",
+                    "semester": 3,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBIPAPCC01",
+                    "semester": 3,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Portfolio",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMINAMI01",
+                    "semester": 4,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Fallstudie",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMETWNQM01",
+                    "semester": 4,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Fallstudie",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "IDBS01",
+                    "semester": 4,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBDHDTE01",
+                    "semester": 4,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Hausarbeit",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMINSDTEGW",
+                    "semester": 4,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Seminararbeit",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMINPGPQT01",
+                    "semester": 4,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Portfolio",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMINBVM01",
+                    "semester": 5,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMINPBVM01",
+                    "semester": 5,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Projektpräsentation",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBIKI01",
+                    "semester": 5,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Hausarbeit",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBINGDABD01",
+                    "semester": 5,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Fallstudie",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMIAMVR01",
+                    "semester": 5,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Advanced Workbook",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMIAMVR02",
+                    "semester": 5,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Projektbericht",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBDSPBDM01_D",
+                    "semester": 6,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Portfolio",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMIUID01-01",
+                    "semester": 6,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMIUID02",
+                    "semester": 6,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Projektbericht",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "DLBMINPMI03",
+                    "semester": 6,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Praxisreflexion",
+                            "prüfungsdatum": null,
+                            "wird_benotet": false,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "BBAK01",
+                    "semester": 6,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Bachelorarbeit",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "BBAK02",
+                    "semester": 6,
+                    "angefangen": false,
+                    "abgeschlossen": false,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Prüfung mündlich",
+                            "prüfungsdatum": null,
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
