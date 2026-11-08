@@ -25,6 +25,12 @@
                     "prüfungsform": "Klausur",
                     "wird_benotet": true,
                     "gewichtung": 1
+                },
+                {
+                    "ID": 2,
+                    "prüfungsform": "Klausur",
+                    "wird_benotet": true,
+                    "gewichtung": 1
                 }
             ]
         },
@@ -558,16 +564,16 @@
                 {
                     "kurscode": "DLBDSIPWP01_D",
                     "semester": 1,
-                    "angefangen": false,
-                    "abgeschlossen": false,
+                    "angefangen": true,
+                    "abgeschlossen": true,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
                             "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": null,
-                            "abgeschlossen": false,
+                            "note": 1.7,
+                            "abgeschlossen": true,
                             "gewichtung": 1
                         }
                     ]
@@ -575,13 +581,22 @@
                 {
                     "kurscode": "DLGMOE01-01",
                     "semester": 1,
-                    "angefangen": false,
+                    "angefangen": true,
                     "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
-                            "prüfungsdatum": null,
+                            "prüfungsdatum": "2026-11-20",
+                            "wird_benotet": true,
+                            "note": null,
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        },
+                        {
+                            "ID": 2,
+                            "prüfungsform": "Klausur",
+                            "prüfungsdatum": "2026-11-29",
                             "wird_benotet": true,
                             "note": null,
                             "abgeschlossen": false,
@@ -592,16 +607,16 @@
                 {
                     "kurscode": "DLBWIRITT01",
                     "semester": 1,
-                    "angefangen": false,
-                    "abgeschlossen": false,
+                    "angefangen": true,
+                    "abgeschlossen": true,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
                             "prüfungsform": "Advanced Workbook",
-                            "prüfungsdatum": null,
+                            "prüfungsdatum": "2026-12-05",
                             "wird_benotet": true,
-                            "note": null,
-                            "abgeschlossen": false,
+                            "note": 2.5,
+                            "abgeschlossen": true,
                             "gewichtung": 1
                         }
                     ]
@@ -609,13 +624,13 @@
                 {
                     "kurscode": "DLBDSOOFPP01_D",
                     "semester": 1,
-                    "angefangen": false,
+                    "angefangen": true,
                     "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
                             "prüfungsform": "Portfolio",
-                            "prüfungsdatum": null,
+                            "prüfungsdatum": "2027-01-15",
                             "wird_benotet": true,
                             "note": null,
                             "abgeschlossen": false,
