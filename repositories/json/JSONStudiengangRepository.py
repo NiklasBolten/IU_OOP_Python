@@ -176,8 +176,9 @@ class JSONStudiengangRepository(StudiengangRepository):
         else:
             raise TypeError(f"Studiengang.ende muss datetime.date-Objekt, oder None sein, nicht {type(studiengang.ende)}")
 
-        prüfungsdatum_dict = {}
+        modul_prüfungsdaten = {}
         for modul in studiengang.module:
+            prüfungsdatum_dict = {}
             for pl in modul.prüfungsleistungen:
                 if isinstance(pl.prüfungsdatum, datetime.date):
                      pl_prüfungsdatum = pl.prüfungsdatum.strftime("%Y-%m-%d")
@@ -187,7 +188,8 @@ class JSONStudiengangRepository(StudiengangRepository):
                     prüfungsdatum_dict[pl.ID] = pl_prüfungsdatum
                 else:
                     raise TypeError(f"Prüfungsleistung.prüfungsdatum muss datetime.date-Objekt, oder None sein, nicht {type(pl.prüfungsdatum)}")
-        
+            modul_prüfungsdaten[modul.kurscode] = prüfungsdatum_dict
+
         return {
             "name": studiengang.name,
             "beginn": studiengang.beginn.strftime("%Y-%m-%d"),
@@ -204,7 +206,7 @@ class JSONStudiengangRepository(StudiengangRepository):
                         {
                             "ID": prüfungsleistung.ID,
                             "prüfungsform": prüfungsleistung.prüfungsform,
-                            "prüfungsdatum": prüfungsdatum_dict[prüfungsleistung.ID],
+                            "prüfungsdatum": modul_prüfungsdaten[modul.kurscode][prüfungsleistung.ID],
                             "wird_benotet": prüfungsleistung.wird_benotet,
                             "note": prüfungsleistung.note,
                             "abgeschlossen": prüfungsleistung.abgeschlossen,
