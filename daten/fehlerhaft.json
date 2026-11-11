@@ -1,0 +1,92 @@
+{
+    "Module": [
+        {
+            "typ": "modul",
+            "kurscode": "testmodul_kurscode ",
+            "name": "testmodul 1",
+            "ects": 20,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": "Fallstudi",
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                },
+                {
+                    "ID": 2,
+                    "prüfungsform": null,
+                    "wird_benotet": true,
+                    "gewichtung": 2
+                }
+            ]
+        },
+        {
+            "typ": "modul",
+            "kurscode": "testmodul_kurscode 2",
+            "name": "testmodul 2",
+            "ects": 10,
+            "prüfungsleistungen": [
+                {
+                    "ID": 1,
+                    "prüfungsform": null,
+                    "wird_benotet": true,
+                    "gewichtung": 1
+                }
+            ]
+        }
+    ],
+    "Studiengänge": [
+        {
+            "name": "Teststudiengang",
+            "beginn": "2026-04-31",
+            "ende": "2029-04-01",
+            "ects_gesamt": 30,
+            "gewünschter_notendurchschnitt": 2.0,
+            "module": [
+                {
+                    "kurscode": "testmodul_kurscode 1",
+                    "semester": 15,
+                    "angefangen": true,
+                    "abgeschlossen": true,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": "Fallstudie",
+                            "prüfungsdatum": "2026-01-01",
+                            "wird_benotet": true,
+                            "note": "2.0",
+                            "abgeschlossen": false,
+                            "gewichtung": 1
+                        },
+                        {
+                            "ID": 2,
+                            "prüfungsform": null,
+                            "prüfungsdatum": "2026-06-01",
+                            "wird_benotet": true,
+                            "note": 1.0,
+                            "abgeschlossen": true,
+                            "gewichtung": 2
+                        }
+                    ]
+                },
+                {
+                    "kurscode": "testmodul_kurscode 2",
+                    "semester": 1,
+                    "angefangen": true,
+                    "abgeschlossen": true,
+                    "prüfungsleistungen": [
+                        {
+                            "ID": 1,
+                            "prüfungsform": null,
+                            "prüfungsdatum": "2026-05-01",
+                            "wird_benotet": true,
+                            "note": 2.0,
+                            "abgeschlossen": true,
+                            "gewichtung": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
