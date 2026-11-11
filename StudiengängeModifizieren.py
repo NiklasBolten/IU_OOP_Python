@@ -7,8 +7,8 @@ from repositories.json.JSONModulRepository import JSONModulRepository
 
 # Reines Test-Programm. Hier können fachliche Logik und die technische Implementierung der Datenhaltung ausgetestet werden.
 
-daten_dateipfad = "daten/testdb.json" # Kann auch zu anderer db.json verlinkt werden;
-# Muss nur dem Schema von "leer.json" entsprechen.
+daten_dateipfad = "daten/modifiziert.json" # Kann auch zu anderer db.json verlinkt werden;
+# Muss nur dem Schema von "leer.json" entsprechen. 
 
 modul_repo = JSONModulRepository(daten_dateipfad)
 repo = JSONStudiengangRepository(daten_dateipfad, modul_repo)
