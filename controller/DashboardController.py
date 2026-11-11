@@ -13,7 +13,10 @@ class DashboardController:
     def lade_dashboard_daten(self) -> DashboardDTO:
         allgemeine_module = self.modul_repository.lade_alle()
         studiengänge = self.studiengang_repository.lade_alle()
-        studiengang = studiengänge[0] # TODO refactoring überlegen, wie mehrere Studiengänge effektiv ausgegeben werden können
+        try:
+            studiengang = studiengänge[0] # TODO refactoring überlegen, wie mehrere Studiengänge effektiv ausgegeben werden können
+        except IndexError:
+            raise IndexError("Keine Studiengänge in der angegebenen Datenbank gefunden.")
 
         aktive_module = [m for m in studiengang.module if AktiveModuleService.prüfe_modul(studiengang, m.kurscode)]
         
