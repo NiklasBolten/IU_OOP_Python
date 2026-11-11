@@ -4,7 +4,7 @@ from dateutil.relativedelta import relativedelta
 class AktiveModuleService:
     """Service-Klasse: überprüft, ob ein Modul aktiv ist. Für das "Aktive Module" Panel"""
     @staticmethod
-    def prüfe_modul(studiengang, modul_kurscode):
+    def prüfe_modul(studiengang, modul_kurscode: str) -> None:
         """Überprüft, ob ein Modul gerade aktiv, also angefangen, aber nicht abgeschlossen ist."""
         modul = None
         for m in studiengang.module:
@@ -16,7 +16,7 @@ class AktiveModuleService:
         return True if modul.angefangen and not modul.abgeschlossen else False
 
     @staticmethod
-    def ermittle_übrige_prüfungsleistungen(studiengang):
+    def ermittle_übrige_prüfungsleistungen(studiengang: Studiengang) -> list[Prüfungsleistung]:
         # Es sollen nur die Prüfungsleistungen aus Modulen betrachtet werden, die noch nicht abgeschlossen sind
         prüfungsleistungen_in_übrigen_modulen = [m.prüfungsleistungen for m in studiengang.module if not m.abgeschlossen]
         # Es wird eine Liste aus Listen mit Prüfungsleistung-Objekten erstellt. Diese wird jetzt geflattened
@@ -32,7 +32,7 @@ class NotenService:
     #TODO Versionierung von Modulen: überall sicherstellen, dass mit der korrekten Version gearbeitet wird
 
     @staticmethod
-    def berechne_gesamtnote_modul(studiengang, modul_kurscode):
+    def berechne_gesamtnote_modul(studiengang: Studiengang, modul_kurscode: str) -> float:
         # Modul ermitteln...
         studiengangmodul = None
         for m in studiengang.module:
@@ -51,7 +51,7 @@ class NotenService:
         return round(sum(noten) / sum(gewichtung_gesamt), 2)
 
     @staticmethod
-    def berechne_gesamtnote_studium(studiengang):
+    def berechne_gesamtnote_studium(studiengang: Studiengang) -> float:
         summe_noten = 0
         anzahl_ects = 0
         if not studiengang.module:
@@ -67,12 +67,12 @@ class NotenService:
         return round(summe_noten / anzahl_ects, 2)
     
     @staticmethod
-    def _flatten(liste):
+    def _flatten(liste: list) -> list:
         flattened_list = [item for subliste in liste for item in subliste]
         return flattened_list
 
     @staticmethod
-    def berechne_benötigten_notendurchschnitt(studiengang):
+    def berechne_benötigten_notendurchschnitt(studiengang: Studiengang) -> float:
         gesamtnote_studium = NotenService.berechne_gesamtnote_studium(studiengang) # aktueller Durchschnitt
         if not gesamtnote_studium:
             gesamtnote_studium = 0
@@ -95,11 +95,11 @@ class EctsService:
     """Service-Klasse: enthält fachliche Logik zu Berechnungen mit ECTS. Für das 
     "Abschluss des Studiums in X Jahren" Panel"""
     @staticmethod
-    def berechne_ects_erreicht(studiengang):
+    def berechne_ects_erreicht(studiengang: Studiengang) -> int:
         return sum(n.ects for n in studiengang.module if n.abgeschlossen)
 
     @staticmethod
-    def berechne_ects_erreicht_anteil(studiengang):
+    def berechne_ects_erreicht_anteil(studiengang: Studiengang) -> float:
         return round(EctsService.berechne_ects_erreicht(studiengang) / studiengang.ects_gesamt * 100, 2)
 
 class ZeitService:
@@ -107,21 +107,21 @@ class ZeitService:
     "Abschluss des Studiums in X Jahren" Panel"""
 
     @staticmethod
-    def berechne_geplantes_studienende(studiengang):
+    def berechne_geplantes_studienende(studiengang: Studiengang) -> datetime.date:
         """Alternative zu explizit gesetztem Studiengang.ende"""
         return studiengang.beginn + relativedelta(months = studiengang.ects_gesamt // 5)
     
     @staticmethod
-    def berechne_gesamtlänge_studium_tage(studiengang):
+    def berechne_gesamtlänge_studium_tage(studiengang: Studiengang) -> int:
         if not studiengang.ende:
             return (ZeitService.berechne_geplantes_studienende(studiengang) - studiengang.beginn).days
         else:
             return (studiengang.ende - studiengang.beginn).days
     
     @staticmethod
-    def berechne_verstrichene_tage(studiengang):
+    def berechne_verstrichene_tage(studiengang: Studiengang) -> int:
         return (datetime.date.today() - studiengang.beginn).days
 
     @staticmethod
-    def berechne_verstrichene_tage_anteil(studiengang):
+    def berechne_verstrichene_tage_anteil(studiengang: Studiengang) -> float:
         return round(ZeitService.berechne_verstrichene_tage(studiengang) / ZeitService.berechne_gesamtlänge_studium_tage(studiengang) * 100, 2)

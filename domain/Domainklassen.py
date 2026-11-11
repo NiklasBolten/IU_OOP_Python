@@ -20,7 +20,7 @@ class Prüfungsleistung:
     gewichtung: float = 1
 
     @classmethod
-    def kopie(cls, vorlage): # Zum Hinzufügen von Prüfungsleistungen aus Modul.prüfungsleistungen in StudiengangModul.prüfungsleistungen
+    def kopie(cls, vorlage: Prüfungsleistung) -> Prüfungsleistung: # Zum Hinzufügen von Prüfungsleistungen aus Modul.prüfungsleistungen in StudiengangModul.prüfungsleistungen
         kopierte_pl = cls(
             prüfungsform=vorlage.prüfungsform,
             wird_benotet=vorlage.wird_benotet,
@@ -29,7 +29,7 @@ class Prüfungsleistung:
         kopierte_pl.ID = vorlage.ID
         return kopierte_pl
 
-    def __post_init__(self):
+    def __post_init__(self) -> None:
 
         if self.prüfungsform != None and self.prüfungsform not in Prüfungsformen:
             raise ValueError("\"Prüfungsform\" muss ein Attribut aus diesem Set sein:" + str(Prüfungsformen))
@@ -52,7 +52,7 @@ class Modul:
     ects: int = 5
     prüfungsleistungen: list["Prüfungsleistung"] = field(default_factory=list) # Speichert die Stammdaten der Prüfungsleistungen; Note und Prüfungsdatum bleiben hier "None"
 
-    def prüfungsleistung_hinzufügen(self, prüfungsleistung):
+    def prüfungsleistung_hinzufügen(self, prüfungsleistung: Prüfungsleistung) -> None:
         if not isinstance(prüfungsleistung, Prüfungsleistung):
             raise TypeError("\"prüfungsleistung\" muss eine Instanz der Klasse \"Prüfungsleistung\" sein.")
         if prüfungsleistung in self.prüfungsleistungen:
@@ -66,7 +66,7 @@ class Modul:
 
         self.prüfungsleistungen.append(prüfungsleistung)
 
-    def prüfungsleistung_entfernen(self, ID: str):
+    def prüfungsleistung_entfernen(self, ID: str) -> None:
         for pl in self.prüfungsleistungen:
             if pl.ID == ID:
                 self.prüfungsleistungen.remove(pl)
@@ -78,14 +78,14 @@ class Modul:
 @dataclass
 class Wahlpflichtmodul(Modul):
     """Domain-Klasse: Stammdaten für StudiengangModul"""
-    def __post_init__(self):
+    def __post_init__(self) -> None:
         if self.kurscode not in Wahlpflichtmodule:
             raise ValueError("\"kurscode\" muss ein Attribut aus diesem Set sein:" + str(Wahlpflichtmodule))
 
 @dataclass
 class Pflichtwahlmodul(Modul):
     """Domain-Klasse: Stammdaten für StudiengangModul"""
-    def __post_init__(self):
+    def __post_init__(self) -> None:
         if self.kurscode not in Pflichtwahlmodule:
             raise ValueError("\"kurscode\" muss ein Attribut aus diesem Set sein:" + str(Pflichtwahlmodule))
 
@@ -104,7 +104,7 @@ class StudiengangModul:
     abgeschlossen: bool | False = field(default=False, init=False) # kann über Studiengang.modul_abschließen(modul_kurscode) auf True gesetzt werden
     prüfungsleistungen: list["Prüfungsleistung"] = field(default_factory=list) #"doppelt": Hier wird auch benotet und ein Prüfungsdatum gesetzt.
 
-    def __post_init__(self):
+    def __post_init__(self) -> None:
         if self.abgeschlossen:
             for pl in self.prüfungsleistungen:
                 if pl.abgeschlossen == False:
@@ -124,7 +124,7 @@ class Studiengang:
     module: list["StudiengangModul"] = field(default_factory=list)
     _ects_vergeben = 0
 
-    def modul_hinzufügen(self, modul, semester=None):
+    def modul_hinzufügen(self, modul: Modul, semester=None) -> None:
 
         #TODO Versionierung von Modulen: Version aus Modul in StudiengangModul übertragen
 
@@ -150,7 +150,7 @@ class Studiengang:
         self._ects_vergeben += modul.ects
         self.module.append(studiengangmodul)
 
-    def modul_anfangen(self, modul_kurscode: str):
+    def modul_anfangen(self, modul_kurscode: str) -> None:
         # Modul ermitteln...
         studiengangmodul = None
         for m in self.module:
@@ -164,7 +164,7 @@ class Studiengang:
         else:
             studiengangmodul.angefangen = True
     
-    def prüfungsdatum_setzen(self, modul_kurscode: str, prüfungsleistung_id: int, prüfungsdatum: datetime.date):
+    def prüfungsdatum_setzen(self, modul_kurscode: str, prüfungsleistung_id: int, prüfungsdatum: datetime.date) -> None:
         # Modul ermitteln...
         studiengangmodul = None
         for m in self.module:
@@ -190,7 +190,7 @@ class Studiengang:
             raise ValueError("Prüfungsdatum liegt vor beginn des Studiengangs")
         prüfungsleistung.prüfungsdatum = prüfungsdatum
 
-    def prüfungsleistung_abschließen(self, modul_kurscode: str, prüfungsleistung_id: int, note: float = None):
+    def prüfungsleistung_abschließen(self, modul_kurscode: str, prüfungsleistung_id: int, note: float = None) -> None:
         # Modul ermitteln...
         studiengangmodul = None
         for m in self.module:
@@ -230,7 +230,7 @@ class Studiengang:
             raise TypeError(f"\"note\" muss vom Typ int, oder float sein, nicht {type(note)}")
 
 
-    def modul_abschließen(self, modul_kurscode: str):
+    def modul_abschließen(self, modul_kurscode: str) -> None:
         # Modul ermitteln...
         studiengangmodul = None
         for m in self.module:
@@ -249,14 +249,14 @@ class Studiengang:
         
         studiengangmodul.abgeschlossen = True
 
-    def modul_entfernen(self, modul_kurscode: str):
+    def modul_entfernen(self, modul_kurscode: str) -> None:
         for m in self.module:
             if m.kurscode == modul_kurscode:
                 self.module.remove(m)
                 return
         raise KeyError(f"Modul mit Kurscode: \"{modul_kurscode}\" nicht in Studiengang \"{self.name}\" vertreten.")
 
-    def __post_init__(self):
+    def __post_init__(self) -> None:
         if self.ects_gesamt not in range(0, 360):
             raise ValueError("\"ects_gesamt\" muss zwischen 0 und 360 liegen.")
         if self.ende == None:
