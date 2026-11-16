@@ -78,6 +78,7 @@ class Modul:
 @dataclass
 class Wahlpflichtmodul(Modul):
     """Domain-Klasse: Stammdaten für StudiengangModul"""
+    #TODO Logik zum Hinzufügen von Wahlpflichtmodulen integrieren
     def __post_init__(self) -> None:
         if self.kurscode not in Wahlpflichtmodule:
             raise ValueError("\"kurscode\" muss ein Attribut aus diesem Set sein:" + str(Wahlpflichtmodule))
@@ -85,6 +86,7 @@ class Wahlpflichtmodul(Modul):
 @dataclass
 class Pflichtwahlmodul(Modul):
     """Domain-Klasse: Stammdaten für StudiengangModul"""
+    #TODO Logik zum Hinzufügen von Pflichtwahlmodulen integrieren
     def __post_init__(self) -> None:
         if self.kurscode not in Pflichtwahlmodule:
             raise ValueError("\"kurscode\" muss ein Attribut aus diesem Set sein:" + str(Pflichtwahlmodule))
@@ -127,6 +129,7 @@ class Studiengang:
     def modul_hinzufügen(self, modul: Modul, semester=None) -> None:
 
         #TODO Versionierung von Modulen: Version aus Modul in StudiengangModul übertragen
+        #TODO Logik zum Hinzufügen von Wahlpflicht- und Pflichtwahlmodulen integrieren
 
         if not isinstance(modul, Modul):
             raise TypeError("\"modul\" muss eine Instanz der Klasse \"Modul\" sein.")
