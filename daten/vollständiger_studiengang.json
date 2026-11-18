@@ -729,15 +729,15 @@
                     "kurscode": "DLBISIC01",
                     "semester": 2,
                     "angefangen": true,
-                    "abgeschlossen": true,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": "2027-02-02",
                             "wird_benotet": true,
-                            "note": 4.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -762,16 +762,16 @@
                 {
                     "kurscode": "DLBMINOOPC01",
                     "semester": 3,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
                             "prüfungsform": "Advanced Workbook",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -779,16 +779,16 @@
                 {
                     "kurscode": "DLBMINGSE01",
                     "semester": 3,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
                             "prüfungsform": "Advanced Workbook",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -819,10 +819,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -836,10 +836,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -853,10 +853,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Portfolio",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -870,10 +870,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Fallstudie",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -887,10 +887,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Fallstudie",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -904,10 +904,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -921,10 +921,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Hausarbeit",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -938,10 +938,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Seminararbeit",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -955,10 +955,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Portfolio",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -972,10 +972,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -989,10 +989,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Projektpräsentation",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -1006,10 +1006,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Hausarbeit",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -1023,10 +1023,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Fallstudie",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -1040,10 +1040,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Advanced Workbook",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -1057,10 +1057,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Projektbericht",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -1074,10 +1074,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Portfolio",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -1091,10 +1091,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -1108,10 +1108,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Projektbericht",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -1142,10 +1142,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Bachelorarbeit",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -1159,10 +1159,10 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Prüfung mündlich",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 2.2,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
