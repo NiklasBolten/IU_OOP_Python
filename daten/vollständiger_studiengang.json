@@ -25,12 +25,6 @@
                     "prüfungsform": "Klausur",
                     "wird_benotet": true,
                     "gewichtung": 1
-                },
-                {
-                    "ID": 2,
-                    "prüfungsform": "Klausur",
-                    "wird_benotet": true,
-                    "gewichtung": 1
                 }
             ]
         },
@@ -556,8 +550,8 @@
     "Studiengänge": [
         {
             "name": "Medizinische Informatik",
-            "beginn": "2027-04-01",
-            "ende": "2027-04-28",
+            "beginn": "2026-04-01",
+            "ende": null,
             "ects_gesamt": 180,
             "gewünschter_notendurchschnitt": 2.0,
             "module": [
@@ -570,9 +564,9 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": "2026-08-01",
                             "wird_benotet": true,
-                            "note": 2.2,
+                            "note": 1.0,
                             "abgeschlossen": true,
                             "gewichtung": 1
                         }
@@ -587,18 +581,9 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": "2026-08-29",
                             "wird_benotet": true,
-                            "note": 1.0,
-                            "abgeschlossen": true,
-                            "gewichtung": 1
-                        },
-                        {
-                            "ID": 2,
-                            "prüfungsform": "Klausur",
-                            "prüfungsdatum": "2027-11-29",
-                            "wird_benotet": true,
-                            "note": 1.0,
+                            "note": 2.0,
                             "abgeschlossen": true,
                             "gewichtung": 1
                         }
@@ -613,9 +598,9 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Advanced Workbook",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": "2026-07-19",
                             "wird_benotet": true,
-                            "note": 2.5,
+                            "note": 1.0,
                             "abgeschlossen": true,
                             "gewichtung": 1
                         }
@@ -623,34 +608,34 @@
                 },
                 {
                     "kurscode": "DLBDSOOFPP01_D",
-                    "semester": 1,
+                    "semester": 2,
                     "angefangen": true,
-                    "abgeschlossen": true,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
                             "prüfungsform": "Portfolio",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": "2026-11-18",
                             "wird_benotet": true,
-                            "note": 1.6,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
                 },
                 {
                     "kurscode": "DLGEHT01-01",
-                    "semester": 1,
+                    "semester": 2,
                     "angefangen": true,
-                    "abgeschlossen": true,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": true,
-                            "note": 1.0,
-                            "abgeschlossen": true,
+                            "note": null,
+                            "abgeschlossen": false,
                             "gewichtung": 1
                         }
                     ]
@@ -674,16 +659,16 @@
                 },
                 {
                     "kurscode": "DLBCSICS01_D",
-                    "semester": 2,
+                    "semester": 1,
                     "angefangen": true,
                     "abgeschlossen": true,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": "2026-08-29",
                             "wird_benotet": true,
-                            "note": 2.4,
+                            "note": 1.7,
                             "abgeschlossen": true,
                             "gewichtung": 1
                         }
@@ -698,9 +683,9 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": "2026-11-07",
                             "wird_benotet": true,
-                            "note": 1.2,
+                            "note": 1.3,
                             "abgeschlossen": true,
                             "gewichtung": 1
                         }
@@ -715,7 +700,7 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Praxisreflexion",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": null,
                             "wird_benotet": false,
                             "note": null,
                             "abgeschlossen": false,
@@ -817,9 +802,9 @@
                         {
                             "ID": 1,
                             "prüfungsform": "Klausur",
-                            "prüfungsdatum": "2027-10-02",
+                            "prüfungsdatum": "2026-06-20",
                             "wird_benotet": true,
-                            "note": 2.2,
+                            "note": 2.7,
                             "abgeschlossen": true,
                             "gewichtung": 1
                         }
@@ -828,8 +813,8 @@
                 {
                     "kurscode": "DLBMINKIMW01",
                     "semester": 3,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -845,8 +830,8 @@
                 {
                     "kurscode": "BSTA01-02",
                     "semester": 3,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -862,8 +847,8 @@
                 {
                     "kurscode": "DLBIPAPCC01",
                     "semester": 3,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -879,8 +864,8 @@
                 {
                     "kurscode": "DLBMINAMI01",
                     "semester": 4,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -896,8 +881,8 @@
                 {
                     "kurscode": "DLBMETWNQM01",
                     "semester": 4,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -913,8 +898,8 @@
                 {
                     "kurscode": "IDBS01",
                     "semester": 4,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -930,8 +915,8 @@
                 {
                     "kurscode": "DLBDHDTE01",
                     "semester": 4,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -947,8 +932,8 @@
                 {
                     "kurscode": "DLBMINSDTEGW",
                     "semester": 4,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -964,8 +949,8 @@
                 {
                     "kurscode": "DLBMINPGPQT01",
                     "semester": 4,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -981,8 +966,8 @@
                 {
                     "kurscode": "DLBMINBVM01",
                     "semester": 5,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -998,8 +983,8 @@
                 {
                     "kurscode": "DLBMINPBVM01",
                     "semester": 5,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -1015,8 +1000,8 @@
                 {
                     "kurscode": "DLBIKI01",
                     "semester": 5,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -1032,8 +1017,8 @@
                 {
                     "kurscode": "DLBINGDABD01",
                     "semester": 5,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -1049,8 +1034,8 @@
                 {
                     "kurscode": "DLBMIAMVR01",
                     "semester": 5,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -1066,8 +1051,8 @@
                 {
                     "kurscode": "DLBMIAMVR02",
                     "semester": 5,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -1083,8 +1068,8 @@
                 {
                     "kurscode": "DLBDSPBDM01_D",
                     "semester": 6,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -1100,8 +1085,8 @@
                 {
                     "kurscode": "DLBMIUID01-01",
                     "semester": 6,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -1117,8 +1102,8 @@
                 {
                     "kurscode": "DLBMIUID02",
                     "semester": 6,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -1151,8 +1136,8 @@
                 {
                     "kurscode": "BBAK01",
                     "semester": 6,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
@@ -1168,8 +1153,8 @@
                 {
                     "kurscode": "BBAK02",
                     "semester": 6,
-                    "angefangen": true,
-                    "abgeschlossen": true,
+                    "angefangen": false,
+                    "abgeschlossen": false,
                     "prüfungsleistungen": [
                         {
                             "ID": 1,
